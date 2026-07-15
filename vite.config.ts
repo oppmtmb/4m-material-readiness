@@ -3,16 +3,18 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 import { defineConfig } from 'vite';
 
-export default defineConfig(() => {
-  return {
-    base: '/4m-material-readiness/',  // ✅ สำคัญมาก (แก้หน้าขาว)
+export default defineConfig({
+  // GitHub Pages repository path
+  base: '/4m-material-readiness/',
 
-    plugins: [react(), tailwindcss()],
+  plugins: [
+    react(),
+    tailwindcss(),
+  ],
 
-    resolve: {
-      alias: {
-        '@': path.resolve(__dirname, '.'),
-      },
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, '.'),
     },
-  };
+  },
 });
