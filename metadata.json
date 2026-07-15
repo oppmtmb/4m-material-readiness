@@ -1,0 +1,6 @@
+{
+  "name": "Shortage Comparator",
+  "description": "Compare Excel shortage lists with Email shortage reports to align status by Part Number and MMO.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
