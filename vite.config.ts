@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: './',  // ✅ สำคัญมาก (แก้หน้าขาว)
+    base: '/4m-material-readiness/',  // ✅ สำคัญมาก (แก้หน้าขาว)
 
     plugins: [react(), tailwindcss()],
 
