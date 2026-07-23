@@ -2,7 +2,7 @@
 
 A browser-based tool that cross-checks **Excel shortage lists** against **email shortage reports** to classify each part number's material readiness status by Part Number (PN) and MMO/Work Order.
 
-🔗 Live app: [https://ai.studio/apps/c5e55dfa-8d71-4e4d-b158-5ba76839048d](https://oppmtmb.github.io/4m-material-readiness/)
+🔗 Live app: https://oppmtmb.github.io/4m-material-readiness/
 
 ## What it does
 
